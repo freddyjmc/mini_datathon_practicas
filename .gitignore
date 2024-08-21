@@ -1,0 +1,43 @@
+# Archivos y carpetas específicos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entorno virtual
+venv/
+env/
+.env
+
+# Archivos de datos
+*.csv
+*.json
+*.xlsx
+
+# Carpeta de resultados
+results/
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de registro
+*.log
+
+# Archivos de caché de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de pytest
+.pytest_cache/
+
+# Archivos de cobertura de código
+.coverage
+htmlcov/
+
+# Archivos de construcción
+build/
+dist/
+*.egg-info/
